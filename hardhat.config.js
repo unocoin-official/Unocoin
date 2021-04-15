@@ -3,11 +3,16 @@ require("@nomiclabs/hardhat-waffle");
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
- defaultNetwork: "rinkeby",
+ defaultNetwork: "mainnet",
 
   networks: {
     hardhat: {
     },
+
+    mainnet: {
+      url: "",
+      accounts: [""]
+    }
 
   rinkeby: {
     url: "",
