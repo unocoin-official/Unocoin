@@ -1,2 +1,2 @@
-# unocoin
-unocoin
+# Unocoin
+UNO
