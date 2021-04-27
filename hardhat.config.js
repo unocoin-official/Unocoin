@@ -5,20 +5,18 @@ require("@nomiclabs/hardhat-waffle");
  */
  defaultNetwork: "mainnet",
 
-  networks: {
-    hardhat: {
-    },
-
-    mainnet: {
-      url: "",
-      accounts: [""]
-    }
-
-  rinkeby: {
-    url: "",
-    accounts: [""]
-    }
-  },
+ networks: {
+   hardhat: {
+   },
+   mainnet: {
+     url: "",
+     accounts: [""]
+   },
+   rinkeby: {
+     url: "",
+     accounts: [""]
+   }
+ },
 
 solidity: {
   version: "0.8.3"
