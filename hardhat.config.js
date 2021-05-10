@@ -18,20 +18,20 @@ task("accounts", "Prints the list of accounts", async () => {
 */
 
 module.exports = {
-  defaultNetwork: "RSK Test",
+  defaultNetwork: "rsktest",
 
   networks: {
     hardhat: {
     },
-    rsk: {
+    rsktest: {
       url: "https://public-node.testnet.rsk.co",
       accounts: [""]
     },
 
-  rinkeby: {
-        url: "",
-        accounts: [""]
-    }
+  // rinkeby: {
+  //       url: "",
+  //       accounts: [""]
+  //   }
   },
 
   solidity: {
